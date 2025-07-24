@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  x-promoter:
+    build: .
+    container_name: x-promoter
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./config:/app/config
+      - ./content:/app/content
+    env_file:
+      - .env
+    restart: unless-stopped
+    environment:
+      - TZ=UTC

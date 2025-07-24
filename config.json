@@ -1,0 +1,6 @@
+{
+  "keywords": ["gumroad", "shutterstock"],
+  "reply_message": "invite you to try abitchaotic.com",
+  "max_replies_per_run": 5,
+  "exclude_own_tweets": true
+}

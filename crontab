@@ -1,0 +1,5 @@
+# X-Promoter Bot Cron Schedule
+# Search for tweets every 15 minutes
+*/15 * * * * cd /app && /usr/local/bin/python /app/src/search.py >> /app/logs/cron.log 2>&1
+
+
